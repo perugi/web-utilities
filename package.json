@@ -1,5 +1,5 @@
 {
-  "name": "web-utilities",
+  "name": "@perugi/web-utilities",
   "version": "1.0.0",
   "description": "A collection of small utility functions for use in my web projects.",
   "main": "package.js",
