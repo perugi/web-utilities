@@ -1,21 +1,21 @@
 {
-  "name": "npm-template",
+  "name": "web-utilities",
   "version": "1.0.0",
-  "description": "A template repo for modules, published on npm, with basic setup development dependencies installed.",
+  "description": "A collection of small utility functions for use in my web projects.",
   "main": "package.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/perugi/npm-template.git"
+    "url": "git+https://github.com/perugi/web-utilities.git"
   },
   "author": "Dominik Perusko",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/perugi/npm-template/issues"
+    "url": "https://github.com/perugi/web-utilities/issues"
   },
-  "homepage": "https://github.com/perugi/npm-template#readme",
+  "homepage": "https://github.com/perugi/web-utilities#readme",
   "devDependencies": {
     "@perugi/eslint-config": "^1.0.3",
     "@perugi/prettier-config": "^1.0.2",
