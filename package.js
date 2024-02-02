@@ -1,10 +1,13 @@
+const Logo = require('./img/githublogo.png');
+
 class Utilities {
-  static renderGHLogo(
-    logoSelector = '#gh-logo',
-    filepath = './img/githublogo.png'
-  ) {
+  static renderGHLogo(filepath, logoSelector = '#gh-logo') {
     const ghLogoElement = document.querySelector(logoSelector);
-    ghLogoElement.src = filepath;
+    if (filepath === undefined) {
+      ghLogoElement.src = Logo;
+    } else {
+      ghLogoElement.src = filepath;
+    }
   }
 }
 
